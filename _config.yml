@@ -1,0 +1,12 @@
+# Site settings
+title: つくらぐ
+description: > # this means to ignore newlines until "baseurl:"
+  つくらぐ (筑波大学 Linux Users' Group, University of Tsukuba Linux Users' Group) のウェブサイトです。
+baseurl: "" # the subpath of your site, e.g. /blog/
+url: "https://tsukulug.github.io" # the base hostname & protocol for your site
+twitter_username: tsukuba_linux
+github_username:  tsukulug
+
+# Build settings
+markdown: kramdown
+exclude: ["vendor"]

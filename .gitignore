@@ -1,0 +1,6 @@
+_site
+.sass-cache
+
+# ruby specific
+/vendor
+/.bundle
