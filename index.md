@@ -2,22 +2,10 @@
 layout: default
 ---
 
-<div class="home">
+# つくらぐとは
 
-  <h1 class="page-heading">Posts</h1>
+![tsukulug avatar](/images/avatar.png)
 
-  <ul class="post-list">
-    {% for post in site.posts %}
-      <li>
-        <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
+"つくらぐ" は、"筑波大学 Linux Users' Group" の略です。筑波大学の一般学生団体として活動をしています (一般学生団体については[筑波大学の Web サイトを御覧ください](https://www.tsukuba.ac.jp/campuslife/unions/circles.html)) 。
 
-        <h2>
-          <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
-        </h2>
-      </li>
-    {% endfor %}
-  </ul>
-
-  <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a></p>
-
-</div>
+{% include posts.html %}
